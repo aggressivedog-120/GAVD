@@ -10,7 +10,7 @@ import pickle as pk
 
 future = 'RB'
 window_len = 500
-classified_store_path = 'E:\\Research Project\\stable_learning\\RealDataClassified'
+classified_store_path = 'path'
 
 with open(os.path.join(classified_store_path, '{}_classified_data.pkl'.format(future)), 'rb') as f:
     data_loaded = pk.load(f)
